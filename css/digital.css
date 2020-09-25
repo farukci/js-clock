@@ -65,8 +65,6 @@ body {
   color: #14faff;
   font-size: 12em;
   font-family: 'digital-clock-font';
-  letter-spacing: 10px;
-  word-spacing: 10px;
   text-shadow: 0 0 10px #14faff;
   box-shadow: 0 0 10px #14faff;
   -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
