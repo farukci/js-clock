@@ -8,6 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    min-width: 100vw;
     background: $bg-body;
 }
 .change {
@@ -15,6 +16,7 @@ body {
     top: 100px;
     display: flex;
     align-items: center;
+    z-index: -1;
     #analog{
         width: 40px;
         height: 40px;
