@@ -9,6 +9,7 @@
     border-radius: 50%;
     border: 20px solid $bg-clock;
     box-shadow: inset 0 0 30px rgba($color: #000000, $alpha: .2);
+    z-index: 1;
     &::before {
         content: "";
         position: absolute;

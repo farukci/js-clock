@@ -16,14 +16,23 @@ body {
     top: 100px;
     display: flex;
     align-items: center;
-    z-index: -1;
     #analog{
         width: 40px;
         height: 40px;
+        border-radius: 50%;
+        &:hover{
+            background-color: $clock-digital;
+            box-shadow: 0 0 10px $clock-digital, 0 0 40px $clock-digital;
+        }
     }
     #digital{
         width: 50px;
         height: 30px;
         margin-left: 30px;
+        border-radius: 5%;
+        &:hover{
+            background-color: $clock-digital;
+            box-shadow: 0 0 10px $clock-digital, 0 0 40px $clock-digital;
+        }
     }
 }

@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: $bg-body2;
+}
+
+.digital {
+    display: flex;
+    color: $clock-digital;
+    font-size: 12em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 10px $clock-digital, 0 0 40px $clock-digital;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+}
