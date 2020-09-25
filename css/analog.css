@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'digital-clock-font';
-  src: url("../../DS-DIGIT.TTF");
+  src: url("../DS-DIGIT.TTF");
 }
 
 * {
@@ -56,7 +56,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #fff url(../../images/clock.png);
+  background: #fff url(../images/clock.png);
   background-size: cover;
   border-radius: 50%;
   border: 20px solid #fff;
