@@ -34,7 +34,7 @@ body {
 
 .change #analog:hover {
   background-color: #14faff;
-  box-shadow: 0 0 10px #14faff, 0 0 40px #14faff, 0 0 80px #14faff;
+  box-shadow: 0 0 10px #14faff, 0 0 40px #14faff;
 }
 
 .change #digital {
@@ -47,7 +47,7 @@ body {
 
 .change #digital:hover {
   background-color: #14faff;
-  box-shadow: 0 0 10px #14faff, 0 0 40px #14faff, 0 0 80px #14faff;
+  box-shadow: 0 0 10px #14faff, 0 0 40px #14faff;
 }
 
 * {

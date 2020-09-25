@@ -34,7 +34,7 @@ body {
 
 .change #analog:hover {
   background-color: #14faff;
-  box-shadow: 0 0 10px #14faff, 0 0 40px #14faff, 0 0 80px #14faff;
+  box-shadow: 0 0 10px #14faff, 0 0 40px #14faff;
 }
 
 .change #digital {
@@ -47,7 +47,7 @@ body {
 
 .change #digital:hover {
   background-color: #14faff;
-  box-shadow: 0 0 10px #14faff, 0 0 40px #14faff, 0 0 80px #14faff;
+  box-shadow: 0 0 10px #14faff, 0 0 40px #14faff;
 }
 
 .clock {
@@ -60,7 +60,7 @@ body {
   background-size: cover;
   border-radius: 50%;
   border: 20px solid #fff;
-  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.2), 0 0 40px #838383;
+  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.4), 0 0 40px #838383;
   z-index: 1;
 }
 

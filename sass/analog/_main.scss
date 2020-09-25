@@ -23,7 +23,7 @@ body {
         box-shadow: 0 0 10px $clock-digital;
         &:hover{
             background-color: $clock-digital;
-            box-shadow: 0 0 10px $clock-digital, 0 0 40px $clock-digital, 0 0 80px $clock-digital;
+            box-shadow: 0 0 10px $clock-digital, 0 0 40px $clock-digital;
         }
     }
     #digital{
@@ -34,7 +34,7 @@ body {
         box-shadow: 0 0 10px $clock-digital;
         &:hover{
             background-color: $clock-digital;
-            box-shadow: 0 0 10px $clock-digital, 0 0 40px $clock-digital, 0 0 80px $clock-digital;
+            box-shadow: 0 0 10px $clock-digital, 0 0 40px $clock-digital;
         }
     }
 }
