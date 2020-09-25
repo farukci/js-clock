@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'digital-clock-font';
+  src: url("../../DS-DIGIT.TTF");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -33,7 +38,7 @@ body {
 }
 
 .change #digital {
-  width: 50px;
+  width: 60px;
   height: 30px;
   margin-left: 30px;
   border-radius: 5%;
@@ -59,8 +64,10 @@ body {
   display: flex;
   color: #14faff;
   font-size: 12em;
-  font-family: Arial, Helvetica, sans-serif;
-  text-shadow: 0 0 10px #14faff, 0 0 40px #14faff;
+  font-family: 'digital-clock-font';
+  letter-spacing: 10px;
+  word-spacing: 10px;
+  text-shadow: 0 0 10px #14faff;
   box-shadow: 0 0 10px #14faff;
   -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
   padding: 0 20px;

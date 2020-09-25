@@ -5,3 +5,7 @@ $clock-digital: #14faff;
 $clock-sign: #838383;
 $min: #b4b4b4;
 $sec: #f44444;
+@font-face{
+    font-family:'digital-clock-font';
+    src: url("../../DS-DIGIT.TTF");
+   }
