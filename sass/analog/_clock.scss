@@ -1,0 +1,70 @@
+.clock {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $bg-clock url(../../images/clock.png);
+    background-size: cover;
+    border-radius: 50%;
+    border: 20px solid $bg-clock;
+    box-shadow: inset 0 0 30px rgba($color: #000000, $alpha: .2);
+    &::before {
+        content: "";
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        background: $clock-sign;
+        border: 2px solid $bg-clock;
+        z-index: 100;
+        border-radius: 50%;
+    }
+    .hour, .min, .sec {
+        position: absolute;
+    }
+    .hour, .hr {
+        width: 160px;
+        height: 160px;
+    }
+    .min, .mn {
+        width: 190px;
+        height: 190px;
+    }
+    .sec, .sc {
+        width: 230px;
+        height: 230px;
+    }
+    .hr, .mn, .sc {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        border-radius: 50%;
+    }
+    .hr::before{
+        content: "";
+        position: absolute;
+        width: 8px;
+        height: 80px;
+        background: $clock-sign;
+        z-index: 10;
+        border-radius: 6px 6px 0 0;
+    }
+    .mn::before{
+        content: "";
+        position: absolute;
+        width: 4px;
+        height: 90px;
+        background: $min;
+        z-index: 11;
+        border-radius: 6px 6px 0 0;
+    }
+    .sc::before{
+        content: "";
+        position: absolute;
+        width: 2px;
+        height: 150px;
+        background: $sec;
+        z-index: 12;
+        border-radius: 6px 6px 0 0;
+    }
+}
