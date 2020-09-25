@@ -20,9 +20,10 @@ body {
         width: 40px;
         height: 40px;
         border-radius: 50%;
+        box-shadow: 0 0 10px $clock-digital;
         &:hover{
             background-color: $clock-digital;
-            box-shadow: 0 0 10px $clock-digital, 0 0 40px $clock-digital;
+            box-shadow: 0 0 10px $clock-digital, 0 0 40px $clock-digital, 0 0 80px $clock-digital;
         }
     }
     #digital{
@@ -30,9 +31,10 @@ body {
         height: 30px;
         margin-left: 30px;
         border-radius: 5%;
+        box-shadow: 0 0 10px $clock-digital;
         &:hover{
             background-color: $clock-digital;
-            box-shadow: 0 0 10px $clock-digital, 0 0 40px $clock-digital;
+            box-shadow: 0 0 10px $clock-digital, 0 0 40px $clock-digital, 0 0 80px $clock-digital;
         }
     }
 }

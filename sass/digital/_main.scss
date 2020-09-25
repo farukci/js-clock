@@ -13,5 +13,17 @@ body {
     font-size: 12em;
     font-family: Arial, Helvetica, sans-serif;
     text-shadow: 0 0 10px $clock-digital, 0 0 40px $clock-digital;
+    box-shadow: 0 0 10px $clock-digital;
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+    padding: 0 20px;
+}
+@media(max-width:1000px){
+    .digital{
+        font-size: 8em;
+    }
+}
+@media(max-width:700px){
+    .digital{
+        font-size: 4em;
+    }
 }
